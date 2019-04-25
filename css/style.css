@@ -1,0 +1,28 @@
+
+#main {
+	margin-top: 60px;
+	background: transparent;
+}
+
+.x {
+	border-radius: 0px;
+    margin: 0px;
+    border: 30px solid black;
+    background: #000000;
+}
+.i {
+	color: #F50000;
+	font-weight: bold;
+}
+.o {
+	background: rgba(0, 0, 0, 0.7);
+	color: lightgrey;
+}
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+	transform: scale(1.1); 
+}
